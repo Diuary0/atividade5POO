@@ -59,7 +59,7 @@ public class ReciclagemGUI extends JFrame {
     }
 
     private void carregarDados() {
-        // Carregar imagens dos materiais
+       
         imagens.put("Papelão", new ImageIcon("papelao.jpg"));
         imagens.put("Plástico", new ImageIcon("plastico.jpg"));
         imagens.put("Ferro", new ImageIcon("ferro.jpg"));
@@ -76,9 +76,7 @@ public class ReciclagemGUI extends JFrame {
 
 
 
-        // Adicione outras imagens aqui para os materiais restantes
 
-        // Definir preços dos materiais
         precos.put("Papelão", 1.0);
         precos.put("Plástico", 0.8);
         precos.put("Ferro", 2.0);
